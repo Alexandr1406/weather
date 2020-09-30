@@ -12,6 +12,7 @@ html {
   html, body {
     min-height: 100%;
   }
+
 body {   
     font-family: “Lucida Sans Unicode”, “Lucida Grande”, sans-serif;
     font-size: 40px;
@@ -22,7 +23,8 @@ body {
 }
 
 h1 {
-    font-size: 24px;
+    font-size: 30px;
+    font-weight: 500;
     vertical-align: middle;
 }
 
@@ -33,12 +35,18 @@ header {
 
 .container {
     margin: 0 auto;
-    max-width: 1000px;
+    max-width: 985px;
     
 }
 
 .city {
     font-size: 0;
+    padding: 3px;
+    background: #fff;
+}
+
+.city li:hover {
+    opacity: 0.5;
 }
 
 .city li {
@@ -48,8 +56,72 @@ header {
     border: 3px solid #fff;
     font-size: 26px;
     width: 25%;
+    background: #3399cc;
 }
 
-.lisbon {
+p {
+    margin-top: 30px;
+    font-size: 30px;
+    vertical-align: middle;
+    color: rgba(255, 255, 255, .7);
+}
+
+
+.deg::after {
+    content: "℃";
+}
+
+.city li.lisbon {
     width: 50%;
+    background: #3399cc;
+}
+.city li.paris {
+ background: #33cccc;
+}
+
+.city li.belgrade {
+    background: #996699;
+}
+
+.city li.moscow {
+    background: #c24747;
+}
+
+.city li.telaviv {
+    background: #e2674a;
+}
+
+.city li.cair {
+    background: #ffcc66;
+}
+
+.city li.newyork {
+    background: #99cc99;
+}
+
+.city li.newdelhi {
+    background: #669999;
+}
+
+
+.city li.sanfrancisco {
+    width: 50%;
+    background: #cc6699;
+}
+
+.city li.tokyo {
+    background: #339966;
+}
+
+
+.city li.sydney {
+    width: 100%;
+    background: #666699;
+}
+
+.footer {
+    font-size: 24px;
+    text-align: left;
+    color: #fff;
+    padding-bottom: 40px;
 }

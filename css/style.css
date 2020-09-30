@@ -1,0 +1,55 @@
+* {
+    margin: 0;
+    padding: 0;
+    outline: none;
+    box-sizing: border-box;
+    transition: all .1s ease-in-out;
+}
+html {
+    height: 100%;
+  }
+  
+  html, body {
+    min-height: 100%;
+  }
+body {   
+    font-family: “Lucida Sans Unicode”, “Lucida Grande”, sans-serif;
+    font-size: 40px;
+    background: #3399cc;
+    border: 25px solid #2b81ac;
+    color: #fff;
+    text-align: center;
+}
+
+h1 {
+    font-size: 24px;
+    vertical-align: middle;
+}
+
+header {
+    padding: 30px 0;
+    text-align: left;
+}
+
+.container {
+    margin: 0 auto;
+    max-width: 1000px;
+    
+}
+
+.city {
+    font-size: 0;
+}
+
+.city li {
+    text-align: center;
+    display: inline-block;
+    padding: 30px 10px;
+    border: 3px solid #fff;
+    font-size: 26px;
+    width: 25%;
+}
+
+.lisbon {
+    width: 50%;
+}

@@ -45,9 +45,10 @@ header {
     background: #fff;
 }
 
-.city li:hover {
-    opacity: 0.5;
+.city:hover > li {
+    opacity: .5;
 }
+
 
 .city li {
     text-align: center;
@@ -59,15 +60,37 @@ header {
     background: #3399cc;
 }
 
+.city li:hover {
+    opacity: 1;
+}
+
 p {
     margin-top: 30px;
-    font-size: 30px;
+    font-size: 30px;    
+}
+
+.wi {
+    margin-top: 30px;    
+}
+
+.city li .wi {
+    font-size: 40px;
+}
+
+.footer {
+    font-size: 24px;
+    text-align: left;
+    color: #fff;
+    padding-bottom: 40px;
+}
+
+.city li .deg, .city li .wi {
+    display: inline-block;
     vertical-align: middle;
     color: rgba(255, 255, 255, .7);
 }
 
-
-.deg::after {
+.city li .deg::after {
     content: "℃";
 }
 
@@ -119,9 +142,3 @@ p {
     background: #666699;
 }
 
-.footer {
-    font-size: 24px;
-    text-align: left;
-    color: #fff;
-    padding-bottom: 40px;
-}
